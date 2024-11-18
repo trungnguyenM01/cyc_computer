@@ -172,7 +172,7 @@ def main():
 
     train_accuracies, test_accuracies = [], []
     train_losses, test_losses = [], []
-    num_trees = 100
+    num_trees = 50
 
     for n_estimators in range(1, num_trees + 1):
         rf_model = RandomForestClassifier(
